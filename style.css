@@ -108,8 +108,15 @@ footer {
 }
 @media only screen and (max-width: 1000px) {
     header {
-      flex-direction: column;
-      padding: 2rem;
-      gap: 1rem;
+        flex-direction: column;
+        padding: 2rem;
+        gap: 1rem;
+        font-size: 1.5rem;
+    }
+    .appBody {
+        padding: 4rem 0 0 0;
+    }
+    .appBody .appContent {
+        gap: 1rem;
     }
   }
