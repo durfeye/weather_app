@@ -28,7 +28,7 @@ header {
     font-size: 1rem;
 }
 .changeLocation input {
-    width: 22rem;
+    max-width: 22rem;
 }
 .changeLocation input:focus {
     outline: none;
